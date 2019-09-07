@@ -7,6 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Markdown
 
 <div id="elm-app">Test div</div>
+<script>alert("hi");</script>
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
