@@ -7653,7 +7653,7 @@ var author$project$FontInfo$loadFontInfo = function (readyMessage) {
 					elm$core$Result$map(author$project$FontInfo$buildLoadedFontInfo),
 					readyMessage),
 				author$project$FontInfo$fontInfoDecoder),
-			bF: '/font.json'
+			bF: 'font.json'
 		});
 };
 var author$project$Main$FontInfoLoaded = function (a) {
@@ -7696,7 +7696,7 @@ var author$project$Render$Font$loadTexture = A2(
 	_Utils_update(
 		elm_explorations$webgl$WebGL$Texture$defaultOptions,
 		{bq: elm_explorations$webgl$WebGL$Texture$nearest}),
-	'/font.png');
+	'font.png');
 var elm$core$Platform$Cmd$batch = _Platform_batch;
 var elm$core$Result$toMaybe = function (result) {
 	if (!result.$) {
